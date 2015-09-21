@@ -23,16 +23,16 @@
             <version>2.2.4</version>
         </dependency>
     </dependencies>
-	<build>
-	<plugins>
-		<plugin>
-    			<groupId>org.eluder.coveralls</groupId>
-    			<artifactId>coveralls-maven-plugin</artifactId>
-    			<version>4.0.0</version>
-    			<configuration>
-        			<repoToken>LGaO1844Ys9xqfnDV1d9Px06PHs18obX4</repoToken>
-    			</configuration>
-		</plugin>
-	</plugins>
-	</build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>4.0.0</version>
+                <configuration>
+                    <repoToken>LGaO1844Ys9xqfnDV1d9Px06PHs18obX4</repoToken>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
